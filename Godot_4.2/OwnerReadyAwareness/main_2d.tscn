@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://0i48wpeu64ht"]
+[gd_scene load_steps=4 format=3 uid="uid://0i48wpeu64ht"]
 
+[ext_resource type="Script" path="res://ParentMain2D.cs" id="1_53hj3"]
 [ext_resource type="Script" path="res://ChildNode2D.cs" id="1_nljpr"]
 [ext_resource type="Texture2D" uid="uid://ed24ndh0ceb4" path="res://icon.svg" id="2_6yryp"]
 
 [node name="ParentMain2D" type="Node2D"]
+script = ExtResource("1_53hj3")
 
 [node name="ChildNode2D#1" type="Node2D" parent="."]
 script = ExtResource("1_nljpr")
